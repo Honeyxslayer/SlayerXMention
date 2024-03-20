@@ -32,7 +32,7 @@ spam_chats = []
 async def start(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ɪ ᴀᴍ ʜᴏɴᴇʏ 🥺")
+        return await event.respond("ɪ ᴀᴍ ʜᴏɴᴇʏ ⚡")
     
     await event.client.send_file(
         event.chat_id,
@@ -40,9 +40,9 @@ async def start(event):
         caption="━━━━━━━━━━━━━━━━━━━━━━━━\n\n✪ ɪ ᴀᴍ ʜᴏɴᴇʏ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴛʜᴇ ɢʀᴏᴜᴘ ᴍᴇᴍʙᴇʀs ɪɴ ᴛᴇʟᴇɢʀᴀᴍ\n✪ ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ ʀᴜɴ /help..\n\n┏━━━━━━━━━━━━━━━━━┓\n┣★ ᴏᴡɴᴇʀ    : [ʜᴏɴᴇʏ](https://t.me/Slayer_Honey_XD)\n┣★ ɢʀᴏᴜᴘ › : [ʜᴏɴᴇʏ ɢʀᴏᴜᴘ](https://t.me/money_haterz_chatting_group)┓\n┣★ ᴄʜᴀɴɴᴇʟ › : [ʜᴏɴᴇʏ ᴄʜᴀɴɴᴇʟ](https://t.me/Slayerr_Honey_XD)\n┗━━━━━━━━━━━━━━━━━┛\n\n💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴛʜᴇɴ\nᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](https://t.me/Slayer_Honey_XD) ...\n\n━━━━━━━━━━━━━━━━━━━━━━━━",
         link_preview=False,
         buttons=[
-            [Button.url("❤️‍🔥 ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ 💫", "https://t.me/Branded_MentionBot?startgroup=true")],
-            [Button.url("❤️‍🔥 ɢʀᴏᴜᴘ 💫", "https://t.me/money_haterz_chatting_group"), Button.url("❤️‍🔥 ᴏᴡɴᴇʀ 💫", "https://t.me/Slayer_Honey_XD")],
-            [Button.url("❤️‍🔥 ᴄʜᴀɴɴᴇʟ 💫", "https://t.me/Slayerr_Honey_XD"), Button.url("⚡ ʜᴏɴᴇʏ ⚡", "https://t.me/Slayer_Honey_XD")]
+            [Button.url("⚡ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⚡", "https://t.me/Branded_MentionBot?startgroup=true")],
+            [Button.url("⚡ ɢʀᴏᴜᴘ 💞", "https://t.me/money_haterz_chatting_group"), Button.url("⚡ ᴏᴡɴᴇʀ ⚡", "https://t.me/Slayer_Honey_XD")],
+            [Button.url("⚡ ᴄʜᴀɴɴᴇʟ 💕", "https://t.me/Slayerr_Honey_XD"), Button.url("⚡ ʜᴏɴᴇʏ ⚡", "https://t.me/Slayer_Honey_XD")]
         ]
     )
 
@@ -51,15 +51,15 @@ async def start(event):
 async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
+        return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ ⚡")
     helptext = "✪ ʜᴇʟᴘ ᴍᴇɴᴜ ᴏғ ʜᴏɴᴇʏ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴄᴏᴍᴍᴀɴᴅ: /mentionall\n✪ ᴄᴏᴍᴍᴀɴᴅ: /cancel ᴛᴏ ᴄᴀɴᴄᴇʟ ɢᴏɪɴɢ ᴏɴ ᴘʀᴏᴄᴇss.\n✪ ᴄᴏᴍᴍᴀɴᴅ /admintagall ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴀʟʟ ᴀᴅᴍɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ\n✪ Yᴏᴜ ᴄᴀɴ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜ ᴛᴇxᴛ ᴡʜᴀᴛ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴍᴇɴᴛɪᴏɴ ᴏᴛʜᴇʀs.\n✪ `Example: /mentionall Good Morning!`\n✪ Yᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀs ᴀ ʀᴇᴘʟʏ ᴛᴏ ᴀɴʏ ᴍᴇssᴀɢᴇ. Bᴏᴛ ᴡɪʟʟ ᴛᴀɢ ᴜsᴇʀs ᴛᴏ ᴛʜᴀᴛ ʀᴇᴘʟɪᴇᴅ ᴍᴇsssᴀɢᴇ."
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("❤️‍🔥 ꜱᴜᴘᴘᴏʀᴛ 💫", "https://t.me/money_haterz_chatting_group"),
-                Button.url("❤️‍🔥 ᴄʜᴀɴᴇʟ 💫", "https://t.me/Slayerr_Honey_XD"),
+                Button.url("⚡ ꜱᴜᴘᴘᴏʀᴛ 💞", "https://t.me/money_haterz_chatting_group"),
+                Button.url("⚡ ᴄʜᴀɴᴇʟ 💞", "https://t.me/Slayerr_Honey_XD"),
             ]
         ),
     )
@@ -69,15 +69,15 @@ async def help(event):
 async def help(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ 🥺")
+        return await event.respond("ᴅᴇᴀʀ sᴛᴀʀᴛ ᴍᴇ ɪɴ ᴘᴍ ᴛᴏ ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴғ ⚡")
     helptext = "✪ ᴏᴡɴᴇʀ ᴍᴇɴᴜ ᴏғ ʜᴏɴᴇʏ ᴍᴇɴᴛɪᴏɴ\n\n✪ ᴍʏ ᴏᴡɴᴇʀ ɪs [ʜᴏɴᴇʏ](https://t.me/Slayer_Honey_XD)\n✪ ᴏғғɪᴄɪᴀʟ ᴍᴇᴍʙᴇʀ ᴏғ ʜᴏɴᴇʏ\n✪ ɢʀᴏᴜᴘ [ᴄʜᴀɴɴᴇʟ](https://t.me/money_haterz_chatting_group)\n✪ ғᴜᴛᴜʀᴇ ᴀɴᴇsᴛʜᴇᴛɪᴄ."
     await event.reply(
         helptext,
         link_preview=False,
         buttons=(
             [
-                Button.url("❤️‍🔥 ꜱᴜᴘᴘᴏʀᴛ 💫", "https://t.me/money_haterz_chatting_group"),
-                Button.url("❤️‍🔥 ᴄʜᴀɴɴᴇʟ 💫", "https://t.me/Slayerr_Honey_XD"),
+                Button.url("⚡ ꜱᴜᴘᴘᴏʀᴛ 💞", "https://t.me/money_haterz_chatting_group"),
+                Button.url("⚡ ᴄʜᴀɴɴᴇʟ 💞", "https://t.me/Slayerr_Honey_XD"),
             ]
         ),
     )
@@ -144,7 +144,7 @@ async def mentionall(event):
         pass
 
 
-@client.on(events.NewMessage(pattern="^/admins|/admin|@admin|@admins ?(.*)"))
+@client.on(events.NewMessage(pattern="^/admintagalls|/admintagall|@admintagall|@admintagalls ?(.*)"))
 async def _(event):
     chat_id = event.chat_id
     if event.is_private:
@@ -213,10 +213,10 @@ async def cancel_spam(event):
             spam_chats.remove(event.chat_id)
         except:
             pass
-        return await event.respond("sᴛᴏᴘᴘᴇᴅ.")
+        return await event.respond("ʜᴏɴᴇʏsᴛᴏᴘᴘᴇᴅ.")
 
 
-print(">> ʙʀᴀɴᴅᴇᴅ ᴍᴇɴᴛɪᴏɴ BOT WORKING <<")
+print(">> ʜᴏɴᴇʏ ᴍᴇɴᴛɪᴏɴ BOT WORKING <<")
 client.run_until_disconnected()
 
 
