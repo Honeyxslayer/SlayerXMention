@@ -1,6 +1,6 @@
 <h1 align="center"><b> ─「 𝗛𝗢𝗡𝗘𝗬 𝗠𝗘𝗡𝗧𝗜𝗢𝗡 」─ </b></h1>
 
-<h4 align="center">BRANDED MENTION A Powerful, Smart And Simple And Smart Mention Bot <br> ... Written With Python and Telethon...</h4>
+<h4 align="center">Honey X Mention A Powerful, Smart And Simple And Smart Mention Bot <br> ... Written With Python and Telethon...</h4>
 
 <p align="center"><a href="https://t.me/BRANDEDKING82"><img src="https://telegra.ph/file/34674d204c253f5024e68.jpg" width="400"></a></p>
 
