@@ -32,7 +32,7 @@ spam_chats = []
 async def start(event):
     chat_id = event.chat_id
     if not event.is_private:
-        return await event.respond("ɪ ᴀᴍ ʜᴏɴᴇʏ ⚡")
+        return await event.respond("ɪ ᴀᴍ ʜᴏɴᴇʏ ❤️‍🔥")
     
     await event.client.send_file(
         event.chat_id,
